@@ -1,0 +1,58 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1DBAF0;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.main{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box{
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 10px;
+}
+
+.row{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #1DBAF0;
+    font-family:'Playpen Sans', cursive; 
+    font-size: 1rem;
+    border-radius: 10px;
+    margin: 2%;
+    margin-left: 0;
+}
+
+.btn:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.correct{
+    padding: 10px;
+}
+
+@media (max-width:600px){
+    .box{
+        width: 80%;
+    }
+}
